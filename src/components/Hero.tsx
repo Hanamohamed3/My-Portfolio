@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, Github, Linkedin, Mail, Phone, Download } from 'lucide-react';
+import profile from '../assets/images/WhatsApp Image 2023-11-25 at 23.40.49_444e3eab.jpg'
 
 const Hero = () => {
   const [displayedText, setDisplayedText] = useState('');
@@ -36,7 +37,7 @@ const Hero = () => {
           <div className="mb-8">
             <div className="w-40 h-40 mx-auto rounded-full overflow-hidden shadow-2xl border-4 border-white">
   <img
-    src="/src/assets/images/WhatsApp Image 2023-11-25 at 23.40.49_444e3eab.jpg" // Change this path if needed
+    src={profile} // Change this path if needed
     alt="Hana Mohamed"
     className="w-full h-full object-cover"
   />
